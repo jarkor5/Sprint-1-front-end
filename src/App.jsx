@@ -1,27 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Header from './components/NavBar/Header';
+import Main from './Main/Main';
 
-function App() {
+function App(){
   return (
     <div className="app-container">
       <div>
-      <header>
-        <nav>
-            <img src="./Menu.png" alt="Menu" class="Menu"> </img>
-            <img src="./Logo.svg" alt="Logo" class="logo"> </img>
-        </nav>
-
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-      </div>
+        <Header/>
+        <div/>
+    <Main/>
 
     </div>
+    </div>
   );
-}
+          }
 
 export default App;
