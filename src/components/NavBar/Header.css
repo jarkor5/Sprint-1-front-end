@@ -28,6 +28,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: -60px;
 }
 
 .header-text{
@@ -35,6 +36,7 @@ header{
     width: 711px;
     margin-right: 27vw;
     margin-bottom: 30vh;
+    margin-top: 30vh;
 
 }
 
@@ -68,3 +70,43 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .header-text {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-left: 30vw;
+    }
+  
+    .header-text h1 {
+      font-size: 40px;
+      margin-right: 10px;
+    }
+  
+    .header-text h2 {
+      font-size: 20px;
+    }
+    
+  
+    .header-text h3 {
+      font-size: 32px;
+      display: none;
+    }
+  
+    .lets-go {
+      margin-top: 10px; 
+      
+      
+    }
+  }

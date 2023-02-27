@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -165,4 +165,33 @@ input{
     margin-top: -15px;
   }
 
+  @media screen and (max-width: 768px) {
+    .form-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    
+    .register-title {
+      width: 90vw;
+      margin-bottom: 5vh;
+      margin-top: 5vh;
+    }
+    
+    .form {
+      width: 90vw;
+    }
+    
+    #form-container {
+      margin-top: 10vh;
+      margin-left: 0;
+      width: 90vw;
+      height: auto;
+    }
+    
+    .register-image {
+      display: none;
+    }
+  }
+  
   
