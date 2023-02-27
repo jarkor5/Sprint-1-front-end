@@ -5,7 +5,6 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <NavBar />
       <div className="header-text">
         <h1>For the love of manga</h1>
         <h2>Explore our varieties</h2>
@@ -15,6 +14,8 @@ export default function Header() {
     </header>
   );
 }
+
+
 
 
 
