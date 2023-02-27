@@ -22,9 +22,11 @@ export default function NavBar() {
           <p className="profile-email">lucasezequielsilva@gmail.com</p>
         </div>
       </div>
-        <a href="#">Read</a>
-        <a href="#">Register</a>
-        <a href="#">Login</a>
+        <a href="#">Home</a>
+        <a href="#">Comics</a>
+        <a href="#">My comics</a>
+        <a href="#">Favourites</a>
+        <a href="#">Logout</a>
       </div>
       
     </nav>

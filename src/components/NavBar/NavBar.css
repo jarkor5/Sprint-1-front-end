@@ -47,9 +47,10 @@ nav {
   }
   
   .dropdown-menu a {
-    width: 100%;
+    width: 75%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 8vh;
+    margin-left: 60px;
     padding: 10px 0;
     text-decoration: none;
     border-radius: 8px;
