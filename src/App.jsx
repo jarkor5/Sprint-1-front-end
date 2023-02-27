@@ -1,27 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Header from './components/NavBar/Header';
+import Main from './components/Main/Main';
+import FormSignUp from './components/FormSignUp/FormSignUp.jsx';
 
-function App() {
+function App(){
   return (
     <div className="app-container">
       <div>
-      <header>
-        <nav>
-            <img src="./Menu.png" alt="Menu" class="Menu"> </img>
-            <img src="./Logo.svg" alt="Logo" class="logo"> </img>
-        </nav>
+        <Header/>
+        <div/>
+    <Main/>
 
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-      </div>
+    <FormSignUp/>
 
     </div>
+    </div>
   );
-}
+          }
 
 export default App;

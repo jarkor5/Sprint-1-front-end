@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.welcome-title{
+    color: rgba(31, 31, 31, 1);
+    font-size: 32px;
+}
+
+#discover{
+    font-size: 12px;
+    color: rgba(31, 31, 31, 1);
+    height: 36px;
+    width: 284px;
+
+}
+.form-container{
+    display: flex;
+    height: 20vh;
+    width: 98.5vw;
+    justify-content: space-between;
+}
+
+.register-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    justify-content: space-between;
+    height: 35vh;
+    margin-top: -12vh;
+}
+
+#register-logo{
+    width: 154.61px;
+    height: 48px;
+    
+}
+
+.form{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container{
+    height: 100vh;
+   width: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vh;
+    margin-top: 20vh;
+}
+
+.form-label{
+    color: black;
+
+}
+
+
+label{
+    color: black;
+    align-items: center;
+    width: 200px;
+}
+input{
+    border-radius: 8px;
+    height: 48px;
+    margin-bottom: 5vh;
+    color: black;
+
+}
+
+
+
+.form-checkbox{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 3vh;
+}
+
+#notification{
+    border-radius: 7px;
+}
+.register-image{
+    width: 680px;
+    height: 980px;
+}
+
+.form-btn{
+    height: 48px;
+    width: 310px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #F97316;
+    border: none;
+
+}
+
+
+.form label {
+    display: flex;
+    align-items: center;
+    width: 135px;
+    height: 15px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: -10px;
+    z-index: 1;
+    margin-left: 9px;
+    width: 0vw;
+    background-color: white;
+    color: #F97316;;
+  }
+
+
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+
+
+  #google-signin-btn{
+    background-color: rgba(235, 235, 235, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(31, 31, 31, 1);
+  }
+
+  label{
+    white-space: nowrap;
+  }
+
+
+  .aw {
+    color: #1F1F1F;
+  }
+  
+  .aw a {
+    display: inline-block;
+    margin-right: -10px;
+  }
+
+  #notification-label{
+    font-size: 12px;
+    margin-top: -15px;
+  }
+
+  
