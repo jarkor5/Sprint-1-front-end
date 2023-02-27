@@ -1,7 +1,8 @@
 import React from 'react';
 import './Main.css';
-import animeImage from '../components/assets/283918815cce51edfc3bd01e534298c8-removebg-preview 1.png';
-import onePieceImage from '../components/assets/image 2.png';
+import animeImage from '../assets/283918815cce51edfc3bd01e534298c8-removebg-preview 1.png';
+import onePieceImage from '../assets/image 2.png';
+
 
 export default function Main() {
   return (
